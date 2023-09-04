@@ -1,12 +1,11 @@
 import React from "react"; 
-interface Props {
-
-}  
+import s from './Home.module.scss';
+interface Props {}  
 
 export const Home = (props: Props) => {
-    return (
+    return 
         <div>
           Home  
         </div>
-    )
+    
 }
